@@ -3,10 +3,11 @@ Rosé Pine for DOOM Emacs. For those who want to soothe the eyes while the finge
 
 # How to install
 1. Clone or download this repo
-2. `make install` to copy the themes to `~/.doom.d/themes/`
-3. Update your `config.el`
-    - `(setq doom-theme 'doom-rose-pine)`
-4. `doom/reload-theme` _(this doesn't seem to work for me though, you can restart emacs instead)_
+2. `make install` or `make macos_install` to copy the themes to `$(XDG_CONFIG_HOME)/emacs/themes/`
+3. Add any of the themes to the config.
+4. Reload theme.
+
+**Note:** `coreutils` needs to be installed if using this on a Mac, e.g. via [homebrew](https://brew.sh/).
 
 # Themes provided
 1. Rosé Pine
